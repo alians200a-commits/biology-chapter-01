@@ -1,0 +1,19 @@
+{
+  "chapter": "BIOLOGY_CH04",
+  "canonicalSource": {
+    "pdfSha256": "52aca93d90e6e791458abade1fdd987612e725753e4638c83416e49f21dcb2ac",
+    "txtSha256": "bd572d99776381fa3a5d141cdc8fc4abd1f8220edd161959944418fb46a25361"
+  },
+  "verifiedReleaseData": {
+    "questionsJsSha256": "42d883de3dec7aa3356d861b2a3d4375904cd5d24c336b27d1f8387ffc570e53",
+    "appJsSha256": "b30e2b26d4de148f43aaf60a9cb7ad03e1395f5e113588214799e198b4e0b6a1",
+    "styleCssSha256": "b9ae7f4e6993a0a7621783f9a9910e0ffef74a05d8e43e4daa867bd1370781c8",
+    "indexHtmlSha256": "0791bb0f43182906d5e610dfdb82c091f3070a6dfd202d8c30149b34c4f7a4b5",
+    "sourceParents": 75,
+    "sourceFormulas": 78,
+    "enrichmentParents": 50,
+    "internalChildren": 31,
+    "totalRecords": 156
+  },
+  "privacy": "The authentic PDF/TXT source files are excluded from the public GitHub release and are used only for private local verification."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "mode": "local",
+  "generatedAt": "2026-07-16T03:10:01.051Z",
+  "privacy": "PRIVATE_SOURCES_AVAILABLE_LOCALLY",
+  "counts": {
+    "sourceParents": 75,
+    "sourceFormulas": 78,
+    "enrichmentParents": 50,
+    "internalChildren": 31,
+    "totalRecords": 156
+  },
+  "hashes": {
+    "questions": "42d883de3dec7aa3356d861b2a3d4375904cd5d24c336b27d1f8387ffc570e53",
+    "app": "b30e2b26d4de148f43aaf60a9cb7ad03e1395f5e113588214799e198b4e0b6a1",
+    "style": "b9ae7f4e6993a0a7621783f9a9910e0ffef74a05d8e43e4daa867bd1370781c8",
+    "index": "0791bb0f43182906d5e610dfdb82c091f3070a6dfd202d8c30149b34c4f7a4b5"
+  }
+}

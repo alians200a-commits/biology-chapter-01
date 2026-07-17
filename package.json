@@ -1,0 +1,22 @@
+{
+  "name": "madrasati-biology-chapter-01",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "generate:data": "node scripts/generate-ch01-questions.mjs",
+    "verify": "node scripts/verify-biology-chapter-01.mjs --mode=ci",
+"build": "npm run generate:data && vite build",    "preview": "vite preview",
+    "lint": "node --check assets/js/app.js && node --check assets/js/questions.js && node --check scripts/verify-biology-chapter-01.mjs && node scripts/verify-biology-chapter-01.mjs --mode=ci"
+  },
+  "dependencies": {
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

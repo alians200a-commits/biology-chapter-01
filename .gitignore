@@ -1,0 +1,43 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+out/
+
+# Environment and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local student uploads and caches
+student_images/
+test_images/
+.cache/
+tmp/
+temp/
+
+# Authentic canonical source files are private and must never be committed
+app/applet/verification/BIOLOGY_CH04_SOURCE.pdf
+app/applet/verification/BIOLOGY_CH04_CONTENT_MASTER.txt
+source-private/
+*.pdf
+*.txt
+
+# Allow normal project documentation/config files
+!*.md
+!package.json
+!package-lock.json
+!tsconfig.json

@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "written": 327,
+    "list": 0,
+    "comparison": 28,
+    "fill": 64,
+    "mcq": 8,
+    "drawing": 17,
+    "true-false-correction": 0,
+    "fixed-underlined-true-false": 0,
+    "multi-part": 0
+  },
+  "fillIssues": [
+    {
+      "id": "ch01-0021",
+      "issue": "placeholder count 0 != blanks length 1"
+    },
+    {
+      "id": "ch01-0297",
+      "issue": "placeholder count 0 != blanks length 1"
+    },
+    {
+      "id": "ch01-0332",
+      "issue": "placeholder count 0 != blanks length 1"
+    }
+  ],
+  "mcqIssues": [],
+  "drawingIssues": []
+}
