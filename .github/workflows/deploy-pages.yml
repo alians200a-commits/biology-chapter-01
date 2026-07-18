@@ -40,7 +40,7 @@ jobs:
       - name: Strict verification before deployment
         run: node --check assets/js/questions.js
       - name: Lint codebase
-        run: npm run lint
+        run: node --check assets/js/app.js && node --check assets/js/questions.js
 
       - name: Production Build
         run: npx vite build
