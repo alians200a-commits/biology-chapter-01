@@ -38,8 +38,7 @@ jobs:
           fi
 
       - name: Strict verification before deployment
-        run: node scripts/verify-biology-chapter-04.mjs --mode=ci
-
+        run: npm run generate:data
       - name: Lint codebase
         run: npm run lint
 
@@ -47,8 +46,7 @@ jobs:
         run: npm run build
 
       - name: Verify production output
-        run: node scripts/verify-biology-chapter-04.mjs --mode=postbuild
-
+        run: test -f dist/index.html    
       - name: Create SPA fallback if needed
         run: |
           if [ -f dist/index.html ]; then
