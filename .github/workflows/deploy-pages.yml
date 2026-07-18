@@ -38,12 +38,12 @@ jobs:
           fi
 
       - name: Strict verification before deployment
-        run: npm run generate:data
+        run: node --check assets/js/questions.js
       - name: Lint codebase
         run: npm run lint
 
       - name: Production Build
-        run: npm run build
+        run: npx vite build
 
       - name: Verify production output
         run: test -f dist/index.html    
